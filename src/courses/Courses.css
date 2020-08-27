@@ -1,0 +1,25 @@
+article#courses {
+    padding: 20px;
+}
+#courses {
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: blueviolet;
+}
+#courses img{
+    border-radius: 20px;
+    width: 500px;
+}
+#courses:hover{
+    box-shadow: 0 5px 10px 2px #0f0f0f;
+    transition: 0.3s ease;
+}
+.btn-danger{
+    background-color: rgba(0, 162, 255, 0.74);
+
+}
+.btn-danger:hover{
+    background-color: crimson;
+    transition: 0.3s ease;
+}

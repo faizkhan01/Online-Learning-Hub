@@ -1,0 +1,29 @@
+section#profile{
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    left: 50px;
+    top: 110px;
+}
+#profile img{
+    width: 250px;
+    height: 250px;
+    /* border: 3px solid black; */
+    border-radius: 50%;
+}
+/* .col-8{
+    text-align: center;
+} */
+#profile .name{
+    font-weight: bold;
+    margin-top: 50%;
+}
+.btn-warning:hover{
+    background-color: blueviolet;
+
+}
+@media screen and (max-width:992px) {
+    section#profile{
+        position: static;
+    }
+}
